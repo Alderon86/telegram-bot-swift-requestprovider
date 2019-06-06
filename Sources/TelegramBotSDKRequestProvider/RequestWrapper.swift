@@ -11,6 +11,6 @@
 //
 import Foundation
 
-public protocol RequestWrapper {
+public protocol RequestProvider {
     static func doRequest(endpointUrl: URL, contentType: String, requestData: Data, completion: @escaping RequestCompletion)
 }
