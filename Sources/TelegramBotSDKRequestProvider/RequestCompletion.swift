@@ -12,4 +12,4 @@
 
 import Foundation
 
-public typealias RequestCompletion = (_ data: Data, _ error: Error?)->()
+public typealias RequestCompletion = (_ data: Data, _ error: RequestError?)->()
