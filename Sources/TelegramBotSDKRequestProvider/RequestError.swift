@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum RequestError: Error {
+public enum RequestError: Error {
     /// Invalid request
     case invalidRequest
     
